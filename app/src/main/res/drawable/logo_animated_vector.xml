@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/mlogo"
+    tools:targetApi="lollipop">
+    <target
+        android:animation="@animator/alpha_path2"
+        android:name="alpha"/>
+
+    <target
+        android:animation="@animator/alpha_path"
+        android:name="alpha2"/>
+    <target
+        android:animation="@animator/scale_x"
+        android:name="logo_group"/>
+    <target
+        android:animation="@animator/scale_y"
+        android:name="logo_group"/>
+</animated-vector>
