@@ -1,2 +1,3 @@
 rootProject.name='Multi-Stream-Splash-Screen'
 include ':app'
+include ':multi-stream-splash-screen'
